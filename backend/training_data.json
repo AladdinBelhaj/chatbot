@@ -1,0 +1,97 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up"],
+    "responses": ["Hello! I'm your finance assistant. How can I help you today?", "Hi there! Ready to help with your finance questions.", "Hey! What financial topic can I assist you with?"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "I have to go"],
+    "responses": ["Goodbye! Feel free to return if you have more questions.", "See you later! Happy investing!", "Take care! Come back anytime for financial advice."]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "I appreciate it"],
+    "responses": ["You're welcome!", "Happy to help!", "Anytime! Feel free to ask more questions."]
+  },
+  {
+    "tag": "investing_basics",
+    "patterns": ["What is investing", "How do I start investing", "Tell me about investing", "Investing basics", "How to invest", "Should I invest"],
+    "responses": ["Investing is putting money into assets like stocks, bonds, or real estate to grow wealth over time. Start by setting clear goals, building an emergency fund, and considering low-cost index funds.", "To start investing, first pay off high-interest debt, save 3-6 months of expenses, then open a brokerage account. Consider starting with diversified ETFs or mutual funds.", "Investing involves buying assets that can appreciate in value. Begin with your employer's 401(k) if available, especially if they match contributions. Then explore IRAs and taxable brokerage accounts."]
+  },
+  {
+    "tag": "stocks",
+    "patterns": ["What are stocks", "Tell me about stocks", "How do stocks work", "Should I buy stocks", "Stock market basics", "What is a share"],
+    "responses": ["Stocks represent ownership in a company. When you buy stock, you become a shareholder and can benefit from the company's growth through price appreciation and dividends.", "Stocks are shares of ownership in publicly traded companies. Their prices fluctuate based on company performance, market conditions, and investor sentiment. Over the long term, stocks historically provide strong returns.", "A stock is a fractional ownership stake in a company. Stock prices can be volatile short-term, but historically the stock market returns about 10% annually over long periods."]
+  },
+  {
+    "tag": "bonds",
+    "patterns": ["What are bonds", "Tell me about bonds", "How do bonds work", "Should I invest in bonds", "Bond basics"],
+    "responses": ["Bonds are loans you make to governments or corporations. In return, they pay you regular interest and return your principal at maturity. Bonds are generally less risky than stocks.", "Bonds provide fixed income through regular interest payments. They're typically more stable than stocks and help diversify your portfolio. Government bonds are very safe, corporate bonds offer higher yields with more risk.", "When you buy a bond, you're lending money to an entity that pays you back with interest. Bonds are important for portfolio balance, especially as you approach retirement."]
+  },
+  {
+    "tag": "etf",
+    "patterns": ["What is an ETF", "Tell me about ETFs", "ETF vs mutual fund", "Should I buy ETFs", "Exchange traded funds"],
+    "responses": ["ETFs (Exchange Traded Funds) are collections of stocks or bonds that trade like individual stocks. They offer instant diversification, low fees, and tax efficiency. Great for beginners!", "ETFs track market indexes or sectors and trade throughout the day. They typically have lower expense ratios than mutual funds and require no minimum investment beyond the share price.", "ETFs combine the diversification of mutual funds with the trading flexibility of stocks. Popular options include S&P 500 ETFs like SPY or VOO, and total market ETFs like VTI."]
+  },
+  {
+    "tag": "retirement",
+    "patterns": ["How to save for retirement", "Retirement planning", "401k", "IRA", "Roth IRA", "When can I retire", "How much to save for retirement"],
+    "responses": ["For retirement, maximize employer 401(k) matches first, then contribute to a Roth IRA. Aim to save 15-20% of your income. Start early to benefit from compound growth!", "A 401(k) is an employer-sponsored retirement account with pre-tax contributions. An IRA is individual - Roth IRA uses after-tax money but grows tax-free. Both are powerful retirement tools.", "The rule of thumb is to have 10x your annual salary saved by retirement. Start with your company's 401(k) match (free money!), then max out an IRA ($6,500/year), then return to 401(k)."]
+  },
+  {
+    "tag": "emergency_fund",
+    "patterns": ["Emergency fund", "How much should I save", "Savings account", "Emergency savings", "Rainy day fund"],
+    "responses": ["An emergency fund should cover 3-6 months of essential expenses. Keep it in a high-yield savings account for easy access. This protects you from going into debt during unexpected events.", "Build your emergency fund before investing aggressively. Aim for 3 months of expenses minimum, 6-12 months if you're self-employed or have variable income. Use a high-yield savings account.", "Your emergency fund is your financial safety net. Start with $1,000, then build to 3-6 months of expenses. Keep it separate from your checking account to avoid spending it."]
+  },
+  {
+    "tag": "debt",
+    "patterns": ["How to pay off debt", "Credit card debt", "Student loans", "Debt payoff strategy", "Should I pay off debt or invest"],
+    "responses": ["Pay off high-interest debt (>7%) before investing. Use the avalanche method (highest interest first) or snowball method (smallest balance first). Always make minimum payments on everything.", "Credit card debt is financial poison at 15-25% interest. Pay it off aggressively before investing. For low-interest debt like mortgages, you can invest while paying it off.", "Prioritize debt by interest rate. Pay minimums on all debts, then attack the highest interest rate with extra payments. Once debt-free, redirect those payments to investing."]
+  },
+  {
+    "tag": "budget",
+    "patterns": ["How to budget", "Budgeting tips", "50/30/20 rule", "Track expenses", "Where does my money go"],
+    "responses": ["The 50/30/20 rule is a great start: 50% needs, 30% wants, 20% savings/debt. Track your spending for a month to see where your money actually goes, then adjust.", "Budgeting isn't restrictive - it's giving your money purpose. Use apps or spreadsheets to track spending. Automate savings first, then budget what's left.", "Start simple: list your income and fixed expenses, set savings goals, then see what's left for variable spending. Review monthly and adjust. The key is sustainability!"]
+  },
+  {
+    "tag": "credit_score",
+    "patterns": ["Credit score", "How to improve credit", "What affects credit score", "FICO score", "Credit report"],
+    "responses": ["Your credit score (300-850) is based on: payment history (35%), credit utilization (30%), credit age (15%), credit mix (10%), and new credit (10%). Pay on time and keep utilization under 30%.", "To improve credit: pay all bills on time, keep credit card balances low, don't close old cards, limit new credit applications, and check your credit report for errors annually.", "A good credit score (700+) gets you better interest rates on loans. Never miss payments, keep credit utilization below 30%, and maintain a long credit history. Check your score free monthly."]
+  },
+  {
+    "tag": "mortgage",
+    "patterns": ["Should I buy a house", "Mortgage advice", "How much house can I afford", "Rent vs buy", "Home loan"],
+    "responses": ["The 28/36 rule: housing costs shouldn't exceed 28% of gross income, total debt shouldn't exceed 36%. Factor in down payment (20% ideal to avoid PMI), maintenance, taxes, and insurance.", "Buying makes sense if you'll stay 5+ years, have stable income, and a 20% down payment. Renting offers flexibility. Don't forget closing costs (2-5%), maintenance (1% annually), and property taxes.", "Get pre-approved before house hunting. Compare 15-year vs 30-year mortgages - shorter term means higher payments but much less interest paid. Never stretch to the maximum you're approved for."]
+  },
+  {
+    "tag": "diversification",
+    "patterns": ["What is diversification", "How to diversify", "Portfolio diversification", "Asset allocation", "Don't put all eggs in one basket"],
+    "responses": ["Diversification means spreading investments across different assets to reduce risk. Own stocks and bonds, domestic and international, various sectors. Index funds provide instant diversification.", "A diversified portfolio might include: 60% US stocks, 20% international stocks, 20% bonds. Adjust based on age and risk tolerance. Rebalance annually to maintain target allocations.", "Don't put all eggs in one basket! Own broad market index funds instead of individual stocks. Include bonds for stability. As you age, shift toward more conservative investments."]
+  },
+  {
+    "tag": "compound_interest",
+    "patterns": ["Compound interest", "Time value of money", "How does compound interest work", "Power of compounding"],
+    "responses": ["Compound interest is earning returns on your returns. A $10,000 investment at 8% annual return becomes $100,000 in 30 years! Start investing early - time is your greatest asset.", "Einstein allegedly called compound interest the 8th wonder of the world. Money grows exponentially when returns are reinvested. That's why starting at 25 vs 35 makes a massive difference.", "Example: Invest $500/month from age 25-65 at 8% return = $1.4 million. Start at 35 instead = $700k. The first 10 years almost double your retirement savings!"]
+  },
+  {
+    "tag": "taxes",
+    "patterns": ["Tax advice", "How to save on taxes", "Tax deductions", "Capital gains tax", "Tax advantaged accounts"],
+    "responses": ["Maximize tax-advantaged accounts: 401(k), IRA, HSA. These reduce taxable income or grow tax-free. Long-term capital gains (held >1 year) are taxed lower than short-term gains.", "Tax tips: contribute to retirement accounts (reduces taxable income), use HSA for medical expenses (triple tax advantage), hold investments >1 year for lower capital gains rates, harvest tax losses.", "Use 401(k) and traditional IRA to lower current taxes, Roth IRA for tax-free retirement income. HSAs are triple tax-advantaged! Track deductions if you itemize, but standard deduction is $13,850 single/$27,700 married."]
+  },
+  {
+    "tag": "risk_tolerance",
+    "patterns": ["Risk tolerance", "How much risk should I take", "Conservative vs aggressive investing", "Am I too risky"],
+    "responses": ["Risk tolerance depends on time horizon, goals, and comfort with volatility. Young investors can take more risk (more stocks). Near retirement? More bonds for stability. Don't panic sell in downturns!", "A common rule: own your age in bonds (e.g., 30 years old = 30% bonds, 70% stocks). Adjust based on personal comfort. Can you stomach a 30% drop without selling? That determines your risk tolerance.", "High risk = high potential return but more volatility. Young people should embrace stock volatility for long-term growth. As you near retirement, gradually shift to bonds for stability."]
+  },
+  {
+    "tag": "dollar_cost_averaging",
+    "patterns": ["Dollar cost averaging", "DCA", "Should I invest lump sum", "When to invest", "Invest all at once"],
+    "responses": ["Dollar cost averaging (DCA) means investing fixed amounts regularly regardless of price. It reduces timing risk and emotional decision-making. Great for 401(k) contributions!", "DCA vs lump sum: historically, lump sum wins 2/3 of the time because markets trend up. But DCA reduces regret if you invest right before a crash. Choose based on your comfort level.", "Invest consistently through ups and downs. DCA smooths out market volatility and removes the stress of timing the market. The best time to invest is now - don't wait for a crash!"]
+  },
+  {
+    "tag": "index_funds",
+    "patterns": ["Index funds", "S&P 500", "Total market index", "VOO", "VTI", "Passive investing"],
+    "responses": ["Index funds track market indexes like the S&P 500. They're low-cost, diversified, and consistently beat most active managers. Warren Buffett recommends them for most people!", "Popular index funds: VTI (total US market), VOO (S&P 500), VXUS (international). Low expense ratios (0.03-0.05%) mean more money stays invested. Set it and forget it!", "Index investing is simple and effective: buy broad market index funds, reinvest dividends, hold forever. Beats 90% of active managers over 15 years with minimal effort and fees."]
+  }
+]
